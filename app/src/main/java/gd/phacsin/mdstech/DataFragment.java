@@ -47,7 +47,6 @@ public class DataFragment extends Fragment {
 
         } catch (SnappydbException e) {
         }
-
         DataAdapter ca = new DataAdapter(data);
         recyclerView.setAdapter(ca);
         return rootView;

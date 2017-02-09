@@ -40,7 +40,6 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder
         View itemView = LayoutInflater.
                 from(viewGroup.getContext()).
                 inflate(R.layout.topic_layout, viewGroup, false);
-
         return new DataViewHolder(itemView);
     }
 
